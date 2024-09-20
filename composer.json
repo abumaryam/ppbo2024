@@ -1,0 +1,19 @@
+{
+    "name": "abumaryam/ppbo2024",
+    "description": "Package untuk Praktikum PBO Tahun 2024",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dian Prawira",
+            "email": "wiradian84@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\":"App"
+        }
+    }
+
+}
