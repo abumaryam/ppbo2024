@@ -83,7 +83,7 @@ class Pegawai
      *
      * @return string Nomor handphone pegawai
      */
-    public function getNoHp(): string
+    protected function getNoHp(): string
     {
         return $this->no_hp;
     }

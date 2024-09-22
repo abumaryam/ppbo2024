@@ -19,7 +19,7 @@ class Dosen extends Pegawai
      *
      * @var int
      */
-    public int $nidn;
+    private int $nidn;
 
     /**
      * Konstruktor untuk membuat objek Dosen baru
