@@ -4,7 +4,7 @@ The Book Catalog Application is a system designed to manage and monitor a collec
 
 ```mermaid
 erDiagram
-    book ||--o{ category : "termasuk dalam"
+    book |}--o| category : "termasuk dalam"
     book }|--o{ author : "ditulis oleh"
     book ||--o{ publisher : "diterbitkan oleh"
     book {
