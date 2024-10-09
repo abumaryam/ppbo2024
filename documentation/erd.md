@@ -6,7 +6,7 @@ The Book Catalog Application is a system designed to manage and monitor a collec
 erDiagram
     book }|--o| category : "termasuk dalam"
     book }|--o{ author : "ditulis oleh"
-    book ||--o{ publisher : "diterbitkan oleh"
+    book }|--o| publisher : "diterbitkan oleh"
     book {
         int id PK
         int isbn
